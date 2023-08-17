@@ -1,0 +1,25 @@
+name: Vault
+version: 1.7.3-b${env.TRAVIS_BUILD_NUMBER}
+description: Vault is a Chat, Permissions & Economy API to allow plugins to more easily hook into these systems without needing to hook each individual system themselves.
+authors: [cereal, Sleaker, mung3r]
+website: https://dev.bukkit.org/projects/vault
+api-version: 1.13
+
+main: net.milkbowl.vault.Vault
+load: startup
+
+commands:
+  vault-info:
+    description: Displays information about Vault 
+    usage: |
+           /<command> - Displays Vault information
+    permission: vault.admin
+  vault-convert:
+    description: Converts all data in economy1 and dumps it into economy2
+    usage: |
+           /<command> [economy1] [economy2]
+    permission: vault.admin
+permissions:
+  vault.admin:
+    description: Notifies the player when vault is in need of an update.
+    default: op
