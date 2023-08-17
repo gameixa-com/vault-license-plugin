@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Compiled class file
 *.class
 
@@ -22,3 +23,23 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+=======
+*/**/.classpath
+.classpath
+*/**/.externalToolBuilders
+.externalToolBuilders
+*/**/.project
+.project
+*/**/.settings
+.settings
+javadoc
+Vault.jar
+/Vault.iml
+/target
+
+#added by LRFLEW
+#feel free to remove
+bin
+*.DS_Store
+/dependency-reduced-pom.xml
+>>>>>>> eb87a4a (init)
