@@ -84,7 +84,7 @@ import org.json.simple.parser.ParseException;
 public class Vault extends JavaPlugin {
 
     private static final String VAULT_BUKKIT_URL = "https://dev.bukkit.org/projects/Vault";
-    private static final String API_URL = "https://team.sofixa.com/app/api/license.php?product=26&ip=";
+    private static final String API_URL = "https://team.sofixa.com/app/api/license.php?product=1&ip=";
     private static Logger log;
     private Permission perms;
     private String newVersionTitle = "";
